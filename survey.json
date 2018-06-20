@@ -21,7 +21,7 @@
       "type": "boolean"
     },
     {
-      "body": "Would you be willing to share your experience with other people?  We will not share any other personal info.",
+      "body": "Would you be willing to share your experience with other people?  We will not share any personal info.",
       "type": "text"
     }
   ],
