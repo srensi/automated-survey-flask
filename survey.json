@@ -1,21 +1,29 @@
 {
   "questions": [
     {
-      "body": "What is your full name?",
+      "body": "What medication are you taking?",
       "type": "text"
     },
     {
-      "body": "Are you more than 21 years old?",
-      "type": "boolean"
-    },
-    {
-      "body": "In a scale of 1-10, how would you rate Python?",
+      "body": "How long (in days) have you been taking it?",
       "type": "numeric"
     },
     {
-      "body": "Name a Python based framework you know about.",
+      "body": "Can you tell me about the problem?",
+      "type": "text"
+    },
+    {
+      "body": "How long (in days) have you been experiencing this side effect?",
+      "type": "numeric"
+    },
+    {
+      "body": "Would you to speak to a pharmacist about your problem?",
+      "type": "boolean"
+    },
+    {
+      "body": "Would you be willing to share your experience with other people?  We will not share any other personal info.",
       "type": "text"
     }
   ],
-  "title": "Flask"
+  "title": "Stefano's Side Effect Bot"
 }
