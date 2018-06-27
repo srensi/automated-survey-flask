@@ -17,8 +17,8 @@ To run the app locally follow these steps:
     - If using vanilla [virtualenv](https://virtualenv.pypa.io/en/latest/):
 
         ```bash
-        virtualenv venv
-        source venv/bin/activate
+        virtualenv env
+        source env/bin/activate
         ```
     - To deactivate vitural environment:
 
@@ -78,6 +78,11 @@ To run the app locally follow these steps:
     http://88b37ada.ngrok.io/voice
     ```
 
+1. ngrok is a blocking command, meaning you cannot do anything in the terminal window while it is running.  You will need to open a new tab in the terminal window and activate your virtual environment to run the server.  To start at new tab in the terminal window press Command+T.  To activate your virtual environment type:
+        ```bash
+        source env/bin/activate
+        ```
+
 1. Start the development server.
 
     ```bash
@@ -86,6 +91,8 @@ To run the app locally follow these steps:
 
 Once ngrok is running, open up your browser and go to your ngrok URL. It will
 look like this: `http://88b37ada.ngrok.io`
+
+1. To shut down ngrok and/or the server, press ctrl-c.
 
 That's it!
 
