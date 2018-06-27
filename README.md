@@ -20,7 +20,12 @@ To run the app locally follow these steps:
         virtualenv venv
         source venv/bin/activate
         ```
+    - To deactivate vitural environment:
 
+        ```bash
+        deactivate
+        ```
+        
     - If using [virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/):
 
         ```bash
@@ -40,6 +45,12 @@ To run the app locally follow these steps:
 1. Run the migrations.
 
     ```bash
+    python manage.py db upgrade
+    ```
+    
+    If you want to clear and update the database type the following two commands:
+    ```bash
+    python manage.py db downgrade
     python manage.py db upgrade
     ```
 
