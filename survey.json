@@ -9,7 +9,11 @@
       "type": "numeric"
     },
     {
-      "body": "Can you tell me about the problem?",
+      "body": "Please list any other medications or diretary supplements you are taking.",
+      "type": "text"
+    },
+    {
+      "body": "Can you tell me about the side effect?",
       "type": "text"
     },
     {
@@ -17,13 +21,9 @@
       "type": "numeric"
     },
     {
-      "body": "Would you to speak to a pharmacist about your problem?",
-      "type": "boolean"
-    },
-    {
       "body": "Would you be willing to share your experience with other people?  We will not share any personal info.",
-      "type": "text"
+      "type": "boolean"
     }
   ],
-  "title": "Stefano's Side Effect Bot"
+  "title": "Sorry to hear you are having a problem with your medication. (;;-__-)"
 }
